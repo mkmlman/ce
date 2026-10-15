@@ -1,12 +1,12 @@
 {
+  "id": "./",
   "name": "Colors & Emotions Photography",
   "short_name": "Colors & Emotions",
   "description": "Contemporary photography portfolio showcasing artistic wedding and portrait work",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#050505",
-  "theme_color": "#050505",
-  "orientation": "portrait-primary",
+  "background_color": "#F4F2ED",
+  "theme_color": "#F4F2ED",
   "scope": "./",
   "lang": "en-US",
   "categories": ["photography", "portfolio", "art"],
@@ -29,7 +29,7 @@
       "name": "Lenticular",
       "short_name": "Lenticular",
       "description": "Drag between two photographs",
-      "url": "./",
+      "url": "./lenticular",
       "icons": [{ "src": "./icon-192x192.png", "sizes": "192x192" }]
     },
     {
@@ -40,9 +40,9 @@
       "icons": [{ "src": "./icon-192x192.png", "sizes": "192x192" }]
     },
     {
-      "name": "Refined Portfolio",
-      "short_name": "Refined",
-      "description": "View the refined photography portfolio",
+      "name": "Grid",
+      "short_name": "Grid",
+      "description": "The classic photography grid",
       "url": "./refined",
       "icons": [{ "src": "./icon-192x192.png", "sizes": "192x192" }]
     },
@@ -51,6 +51,27 @@
       "short_name": "Journal",
       "description": "Editorial wedding stories",
       "url": "./gindex",
+      "icons": [{ "src": "./icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Rolling",
+      "short_name": "Rolling",
+      "description": "A rolling archive of photographs",
+      "url": "./rolling",
+      "icons": [{ "src": "./icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Inside",
+      "short_name": "Inside",
+      "description": "Step inside the endless room",
+      "url": "./inside",
+      "icons": [{ "src": "./icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Carousel",
+      "short_name": "Carousel",
+      "description": "A slow carousel of covers",
+      "url": "./carousel",
       "icons": [{ "src": "./icon-192x192.png", "sizes": "192x192" }]
     }
   ]

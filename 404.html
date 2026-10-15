@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Colors &amp; Emotions</title>
+    <meta name="robots" content="noindex" />
+    <script>
+      // GitHub Pages has no SPA fallback: any unknown path (e.g. /ce/wheel on
+      // a hard refresh or shared link) lands here. Redirect back into the app
+      // with the route tucked into the query string; src/main.jsx restores it.
+      var pathSegmentsToKeep = 1; // the "/ce" project-page segment
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
