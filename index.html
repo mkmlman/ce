@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <!-- Absolute (base-aware) hrefs: the wheel route is served from a
+         directory-style URL (/wheel/), so "./favicon.svg" would resolve into
+         the photo directory and 404. /ce/ is substituted by Vite. -->
+    <link rel="icon" type="image/svg+xml" href="/ce/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#F4F2ED" />
     <meta name="description" content="Colors & Emotions — a photography studio shaping quiet frames in color and feeling. Wander seven ways to hang the same photographs." />
@@ -31,8 +34,8 @@
       href="https://fonts.googleapis.com/css2?family=Italiana&family=Manrope:wght@200;300;400;500;600&family=Caveat:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Montserrat:wght@200;300;400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="manifest" href="./manifest.json" />
-    <link rel="apple-touch-icon" href="./icon-192x192.png" />
+    <link rel="manifest" href="/ce/manifest.json" />
+    <link rel="apple-touch-icon" href="/ce/icon-192x192.png" />
     <title>Colors & Emotions — Photography in Color and Feeling</title>
     <script type="module" crossorigin src="/ce/assets/index-DE6ElPSX.js"></script>
     <link rel="modulepreload" crossorigin href="/ce/assets/rolldown-runtime-CbXtAM7H.js">
