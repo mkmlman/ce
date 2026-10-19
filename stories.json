@@ -1,0 +1,86 @@
+{
+  "_readme": "STORIES CONTENT FILE — edit me, not the code. Each entry: file = cover card (path relative to site root), gallery = the rest of that shoot's photos, shown as a filmstrip in the story's fullscreen album, name/type/year = labels. Keep covers 3:2 landscape (e.g. 1500x1000) and under ~300KB. To add album photos: drop the JPGs in public/wheel/ and list them in gallery; then run `node scripts/build-images.mjs` to rebuild the WebP siblings (covers are resized to 800px — the widest any view paints them; src/__tests__/stories.test.js fails if a sibling is missing). Reorder rows to resequence.",
+  "stories": [
+    {
+      "file": "wheel/1.jpg",
+      "name": "The Quiet Hours",
+      "type": "Emotion",
+      "year": "2024",
+      "gallery": [
+        "wheel/quiet-hours-2.jpg",
+        "wheel/quiet-hours-3.jpg"
+      ]
+    },
+    {
+      "file": "wheel/2.jpg",
+      "name": "Saffron Haze",
+      "type": "Color",
+      "year": "2024",
+      "gallery": []
+    },
+    {
+      "file": "wheel/3.jpg",
+      "name": "Architectural Soul",
+      "type": "Emotion",
+      "year": "2023",
+      "gallery": []
+    },
+    {
+      "file": "wheel/4.jpg",
+      "name": "Botanical Study",
+      "type": "Color",
+      "year": "2023",
+      "gallery": [
+        "wheel/botanical-2.jpg"
+      ]
+    },
+    {
+      "file": "wheel/5.jpg",
+      "name": "Veiled Motion",
+      "type": "Emotion",
+      "year": "2025",
+      "gallery": []
+    },
+    {
+      "file": "wheel/6.jpg",
+      "name": "Azure Dreaming",
+      "type": "Color",
+      "year": "2024",
+      "gallery": []
+    },
+    {
+      "file": "wheel/7.jpg",
+      "name": "Monsoon Bride",
+      "type": "Wedding",
+      "year": "2025",
+      "gallery": []
+    },
+    {
+      "file": "wheel/8.jpg",
+      "name": "Amber Silence",
+      "type": "Portrait",
+      "year": "2025",
+      "gallery": []
+    },
+    {
+      "file": "wheel/9.jpg",
+      "name": "Salt & Light",
+      "type": "Editorial",
+      "year": "2026",
+      "gallery": [
+        "wheel/salt-light-2.jpg",
+        "wheel/salt-light-3.jpg"
+      ]
+    },
+    {
+      "file": "wheel/10.jpg",
+      "name": "Vermilion Hour",
+      "type": "Wedding",
+      "year": "2026",
+      "gallery": [
+        "wheel/vermilion-2.jpg",
+        "wheel/vermilion-3.jpg"
+      ]
+    }
+  ]
+}

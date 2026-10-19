@@ -1,0 +1,78 @@
+{
+  "id": "./",
+  "name": "Colors & Emotions Photography",
+  "short_name": "Colors & Emotions",
+  "description": "Contemporary photography portfolio showcasing artistic wedding and portrait work",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F4F2ED",
+  "theme_color": "#F4F2ED",
+  "scope": "./",
+  "lang": "en-US",
+  "categories": ["photography", "portfolio", "art"],
+  "icons": [
+    {
+      "src": "./icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Lenticular",
+      "short_name": "Lenticular",
+      "description": "Drag between two photographs",
+      "url": "./lenticular",
+      "icons": [{ "src": "./icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Wheel",
+      "short_name": "Wheel",
+      "description": "Interactive wheel of stories",
+      "url": "./wheel",
+      "icons": [{ "src": "./icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Grid",
+      "short_name": "Grid",
+      "description": "The classic photography grid",
+      "url": "./refined",
+      "icons": [{ "src": "./icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Journal",
+      "short_name": "Journal",
+      "description": "Editorial wedding stories",
+      "url": "./gindex",
+      "icons": [{ "src": "./icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Rolling",
+      "short_name": "Rolling",
+      "description": "A rolling archive of photographs",
+      "url": "./rolling",
+      "icons": [{ "src": "./icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Inside",
+      "short_name": "Inside",
+      "description": "Step inside the endless room",
+      "url": "./inside",
+      "icons": [{ "src": "./icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Carousel",
+      "short_name": "Carousel",
+      "description": "A slow carousel of covers",
+      "url": "./carousel",
+      "icons": [{ "src": "./icon-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
